@@ -1,5 +1,7 @@
 <template>
-  <div>About</div>
+  <article class="prose dark:prose-invert prose-h1:text-2xl max-w-none">
+    <ContentDoc path="/about" />
+  </article>
   <!-- <div>
     <button @click="enableCustomLayout">Update layout</button>
   </div> -->
@@ -14,9 +16,9 @@
 //   setPageLayout("another");
 // }
 
-useHead({
-  title: "About",
-});
+// useHead({
+//   title: "About",
+// });
 </script>
 
 <style></style>
